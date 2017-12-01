@@ -1,2 +1,5 @@
 # mySophomoreProject
-A Windows Form Application that matches and places students for LSSU.
+  A Windows Form Application that matches and places students for LSSU.
+  This project was created with the NetBeans IDE. "MainJFrame" is the main class as well as the form I created with Swing. All files other than "Student", "Roommates", and "Building" are names of specific buildings on my campus. 
+  The project was created for LSSUs housing department as a recommendation system for all students living on capus. It accepts input on all students in the form of a housing application, all information is held within Student objects. The students are then placed into a building based on prefernce and where they are allowed to live. From there, they are matched with the best fit for them, unless of course they requested a specific roommate. After the user has input all students to be matched/placed, they need only hit the "Match!" button to produce various csv files with the system's recommendation of match and placement for all students. 
+  It is possible that a student could not be placed into a building according to the algorithm I developed; in which case they are placed into a group of students with a similar problem and presented to the user as such. 
